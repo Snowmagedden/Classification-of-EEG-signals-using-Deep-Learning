@@ -49,10 +49,10 @@ The file 0Data_Spectrograms.pkl0 contains the spectrograms of the sequences and 
 labels as two array [spectrograms, labels]. A spectrogram is a visual representation of the spectrum of frequencies of a signal as it varies
 with time. So a spectrogram is a 2D array, where one axis represents frequencies, and the other
 represents time. https://en.wikipedia.org/wiki/Spectrogram
-In the file 0Data_Spectrograms.pkl0 the spectrograms have a size 100 by 30 for each signal,
+In the file '*Data_Spectrograms.pkl*' the spectrograms have a size 100 by 30 for each signal,
 and they represent the same 3000-time steps EEG sequences as in the raw data. That is, for each
 sequence in the raw data file, there is a corresponding spectrogram.
-The spectrograms in 0Data_Spectrograms.pkl0 represent the frequencies of the signals in steps
+The spectrograms in '*Data_Spectrograms.pkl*' represent the frequencies of the signals in steps
 of 0.5Hz between 0.5 and 50 Hz (Hence 100). Such frequencies correspond to the spectral information
 in time windows of size 100-time steps each; thus, for a sequence of 3000-time steps, there
 are 30 windows (hence spectrogram size: 100 by 30, frequencies by the number of windows).
